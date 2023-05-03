@@ -4,7 +4,7 @@ module.exports = {
         target: 'temporary-public-storage',
       },
       collect:{
-        staticDistDir: './build',
+        staticDistDir: './public',
       },
       assert: {
         preset: 'lighthouse:no-pwa',
