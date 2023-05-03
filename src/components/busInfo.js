@@ -8,7 +8,6 @@ import {MdGroups2} from "react-icons/md";
 
 function busInfo() {
   return (
-    /
     <div className='grid-container'>
       <div className='item1'><span className="restStop">1 REST STOP</span><br/><span className='time'>21:55</span>-05:00</div>
       <div className='item2'><span className="from">From</span><br/><span className="price">₹ 600</span></div>
