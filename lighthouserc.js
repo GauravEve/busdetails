@@ -4,7 +4,7 @@ module.exports = {
         target: 'temporary-public-storage',
       },
       collect:{
-        startServerCommand: 'npm run start',
+        startServerCommand: 'npm start',
       },
       assert: {
         preset: 'lighthouse:no-pwa',
