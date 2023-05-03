@@ -13,4 +13,5 @@ jobs:
         run: npm i
       - name: Run ESlint
         run: npm run lint
-    
+      - name: Build file
+        run: npm run build
