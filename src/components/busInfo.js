@@ -5,9 +5,6 @@ import {RxDotFilled} from "react-icons/rx";
 import {MdOutlineHealthAndSafety} from "react-icons/md";
 import {RiShieldStarLine} from "react-icons/ri";
 import {MdGroups2} from "react-icons/md";
-const Busdetails={
-    
-}
 function busInfo() {
   return (
     <div className='grid-container'>

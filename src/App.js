@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import BusInfo from './components/busInfo';
 function App() {
