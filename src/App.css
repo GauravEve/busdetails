@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  font-family: Montserrat;
+  /* font-weight: bold; */
+  font-size: large;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* gap: 10px; */
+  /* background-color: #2196F3; */
+  padding: 10px;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 150px;
+}
+
+.item1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  line-height: 20px;
+}
+.item2{
+  line-height: 16px;
+  margin-top:20px
+}
+.item3{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  line-height: 25px;
+}
+.item4{
+  margin-top:30px
+}
+.item5{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-top: 10px;
+  
+}
+
+.restStop{
+  font-size:small;
+  color: #4f91d9;
+}
+.time{
+  font-weight: bolder;
+}
+.price{
+  font-weight: bolder;
+}
+.duration{
+  font-size:15px ;
+  color:#7e7e8c;
+
+}
+.busName{
+  font-weight: bolder;
+  font-size: medium;
+}
+.AC{
+ color:#7e7e8c;
+}
+.busTracking{
+  background-color:#e5ebf8 ;
+  border: transparent;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+.reschedule{
+  background-color:#e5ebf8 ;
+  border: transparent;
+  border-radius: 5px;
+}
+
+.services{
+  display:flex;
+  column-gap:20px;
+ color:#7e7e8c;
+
+}
+.legroom{
+  display:flex
+}
+
+.safety{
+  display:flex
+}
+
+.from{
+  font-size: small;
+ color:#7e7e8c;
+}
+
+.rating{
+  width: 50px;
+  background: -webkit-linear-gradient(#4CAF50 50%, #e5ebf8 50%);
+  border: 2px transparent;
+  border-radius: 3px;
+  height: 50px;
+  text-align: center;
+  line-height: 20px;
+  opacity: 0.8;
+  /* margin-bottom: 10px;  */
+}
