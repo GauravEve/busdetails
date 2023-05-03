@@ -13,3 +13,5 @@ jobs:
         run: npm i
       - name: Run ESlint
         run: npm run lint
+      - name: Lighthouse
+        run: npm run ci:lighthouse
