@@ -3,9 +3,9 @@ module.exports = {
       upload: {
         target: 'temporary-public-storage',
       },
-      collect:{
-        startServerCommand: 'npm start',
-      },
+    //   collect:{
+    //     staticDistDir: './build',
+    //   },
       assert: {
         preset: 'lighthouse:no-pwa',
             // preset:'lighthouse:recommended',
